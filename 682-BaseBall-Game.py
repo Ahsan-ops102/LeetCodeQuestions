@@ -14,6 +14,6 @@ class Solution:
                 new_score = score[-1] + score[-2]
                 score.append(new_score)
             if i == 'C':
-                changed_score = score.pop()
+                score.pop()
                 
         return sum(score)
